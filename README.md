@@ -37,6 +37,8 @@ If an error occurs (because you made a mistake in your code), you can see the lo
 
 ## Running locally
 
+First of all, clone your forked repository.
+
 ### Install dependencies
 Run `npm install` in the repository folder.
 
