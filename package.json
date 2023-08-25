@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "dendry": "github:aucchen/dendry"
-  }
+  },
+  "name": "dendry-game",
+  "description": "This is a starter pack for [Dendry](https://github.com/aucchen/dendry) games. It includes a basic game structure.",
+  "version": "1.0.0",
+  "main": "out/html/index.html",
+  "devDependencies": {},
+  "scripts": {
+    "dendry": "dendry"
+  },
+  "keywords": [
+    "dendry",
+    "interactive-fiction"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aucchen/dendry/issues"
+  },
+  "homepage": "https://github.com/smwhr/dendry-starter-pack#readme"
 }
