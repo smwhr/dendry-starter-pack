@@ -34,8 +34,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16
-      - name: install, build
-        run: npm install && npm run dendry make-html
+      - name: Install
+        run: npm install
+      - name: Build game
+        run: npm run dendry make-html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
